@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@mipmap/fundo"
+    android:orientation="vertical"
+    tools:context=".ParticipantesActivity">
+
+    <Button
+        android:id="@+id/buttonT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:backgroundTint="@color/rosa"
+        android:text="Voltar para a Home" />
+
+    <TextView
+        android:id="@+id/textViewPresentation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:lineSpacingExtra="5dp"
+        android:text="Olá Professor, nosso grupo é formado pelos seguintes
+        Participantes:\n
+        • Akira Ogassavara   RA: 2401977\n
+        • Amanda Costa   RA: 2401562\n
+        • Fanthine Souza   RA: 2401012\n
+        • Mauricio Costa   RA: 2400487\n"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textViewPresentation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:lineSpacingExtra="5dp"
+        android:text="Cada participante Criou uma tela de apresentação, basta selecionar os
+        botãos com o nome dos mesmo que você será redirecionado."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/buttonT5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/rosa"
+        android:baselineAligned="false"
+        android:text="Akira" />
+
+    <Button
+        android:id="@+id/buttonT6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/rosa"
+        android:text="Amanda" />
+
+    <Button
+        android:id="@+id/buttonT7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/rosa"
+        android:text="Fanthine" />
+
+    <Button
+        android:id="@+id/buttonT8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/rosa"
+        android:text="Mauricio" />
+
+</LinearLayout>
