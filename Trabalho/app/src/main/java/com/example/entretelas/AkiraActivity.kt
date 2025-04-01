@@ -1,20 +1,31 @@
 package com.example.entretelas
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class AkiraActivity : AppCompatActivity() {
+    lateinit var buttonT1: Button // Home
+    lateinit var buttonT4: Button // Participantes
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_akira)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        buttonT1 = findViewById(R.id.buttonT1)
+        buttonT4 = findViewById(R.id.buttonT4)
+
+        buttonT1.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonT4.setOnClickListener {
+            val intent = Intent(this, ParticipantesActivity::class.java)
+            startActivity(intent)
         }
     }
 }
