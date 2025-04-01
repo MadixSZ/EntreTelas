@@ -16,6 +16,9 @@
             android:name=".AkiraActivity"
             android:exported="false" />
         <activity
+            android:name=".NotasActivity"
+            android:exported="false" />
+        <activity
             android:name=".AmandaActivity"
             android:exported="false" />
         <activity
