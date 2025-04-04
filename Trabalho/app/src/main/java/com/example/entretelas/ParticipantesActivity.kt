@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 class ParticipantesActivity : AppCompatActivity() {
 
     lateinit var buttonT1: Button // Home
-    // lateinit var buttonT5: Button // Akira
+    lateinit var buttonT5: Button // Akira
     lateinit var buttonT6: Button //  Amanda
     // lateinit var buttonT7: Button // Fanthine
     // lateinit var buttonT8: Button // Mauricio
@@ -25,6 +25,11 @@ class ParticipantesActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        buttonT5 = findViewById(R.id.buttonT5)
+        buttonT5.setOnClickListener {
+            val intent = Intent(this, AkiraActivity::class.java)
+            startActivity(intent)
+        }
 
         buttonT6 = findViewById(R.id.buttonT6)
         buttonT6.setOnClickListener {
