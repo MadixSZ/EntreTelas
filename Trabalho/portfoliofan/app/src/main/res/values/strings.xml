@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">portfolio</string>
+    <string name="nome">Fanthine Souza</string>
+    <string name="txt_desc">
+
+        <b>Nome Completo:</b> Fanthine Vitoria de Souza \n\n
+
+<b><font color="#FF03DAC5"> Descrição:\n</font></b>\n
+
+
+     Sou estudante na área de Sistemas de Informação, uma área pela qual tenho muito interesse. Estou constantemente em busca de aprendizado, tanto na faculdade quanto na vida pessoal, e já          desenvolvi alguns projetos simples mas práticos que reforçaram meus conhecimentos em programação. \n\n
+
+<b><font color="#FF03DAC5">Desafios\n</font></b>
+
+     Atualmente, concilio os estudos com o trabalho, o que tem sido um desafio, mas estou sempre buscando maneiras de melhorar minha organização e gerir melhor meu tempo. Essa experiência tem me tornado mais resiliente e comprometida com meus objetivos profissionais. \n\n
+
+<b><font color="#FF03DAC5">Habilidades\n</font></b>
+
+     Gosto muito de ler, o que contribui para minha concentração, curiosidade e aprendizado contínuo. Sou uma pessoa bastante dedicada, qualidade que procuro aplicar tanto nos estudos quanto nos projetos em que me envolvo. \n\n
+
+<b><font color="#FF03DAC5">Habilidades\n</font></b>
+
+     Tenho interesse em crescer profissionalmente na área de tecnologia e estou aberta a oportunidades que me ajudem a evoluir, aprender e aplicar meus conhecimentos na prática. Estou determinada a seguir desenvolvendo minhas habilidades, especialmente no desenvolvimento web, onde mais me identifico no momento.
+
+\n\n
+     </string>
+    <string name="contatos">Contatos</string>
+    <string name="projetos">Projetos</string>
+</resources>
