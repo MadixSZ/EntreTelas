@@ -4,4 +4,13 @@
     <item name="cornerFamily">rounded</item>
     <item name="cornerSize">50%</item>
 </style>
+
+    <style name="Base.Theme.Portfolio" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Tema principal a ser usado no AndroidManifest -->
+    <style name="Theme.Portfolio" parent="Base.Theme.Portfolio" />
+
 </resources>

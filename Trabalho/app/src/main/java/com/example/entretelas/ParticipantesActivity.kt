@@ -11,7 +11,7 @@ class ParticipantesActivity : AppCompatActivity() {
     lateinit var buttonT1: Button // Home
     lateinit var buttonT5: Button // Akira
     lateinit var buttonT6: Button //  Amanda
-    // lateinit var buttonT7: Button // Fanthine
+    lateinit var buttonT7: Button // Fanthine
     // lateinit var buttonT8: Button // Mauricio
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,6 +34,12 @@ class ParticipantesActivity : AppCompatActivity() {
         buttonT6 = findViewById(R.id.buttonT6)
         buttonT6.setOnClickListener {
             val intent = Intent(this, AmandaActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonT7 = findViewById(R.id.buttonT7)
+        buttonT7.setOnClickListener {
+            val intent = Intent(this, FanthineActivity::class.java)
             startActivity(intent)
         }
     }
